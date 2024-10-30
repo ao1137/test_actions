@@ -1,10 +1,10 @@
 name: Action Sample
 
+# Controls when the workflow will run
 on:
   push:
-    branches: 
-      - main
-  workflow_dispatch:
+    paths:
+    - 'main.py'
 
 jobs:
   numpy-test:
